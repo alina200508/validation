@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# JavaScript validation with RegEx
+
+Simple project created using React.js to study how react works and use regular expressions on practice.
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
