@@ -1,0 +1,78 @@
+button {
+    width: 300px;
+    height: 40px;
+    padding: 8px 12px;
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgb(86, 85, 85);
+    box-sizing: border-box;
+}
+
+button:hover {
+    color: white;
+    background-color: #333;
+    border-color: #333;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 8px 12 px;
+    border: 2px solid #ddd;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+input:focus {
+    color: #333;
+    outline: none;
+    border-color: #ddd;
+    box-shadow: 0 0 5px rgba(83, 85, 84, 0.326);
+}
+
+.form {
+    
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msg-ok {
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background-color: #e6f4ea;
+  color: #2d7a3a;
+  border: 1px solid #a8d5b0;
+}
+
+.msg-error {
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background-color: #fdecea;
+  color: #c0392b;
+  border: 1px solid #f0b0aa;
+}
